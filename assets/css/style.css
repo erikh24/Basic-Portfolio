@@ -1,0 +1,11 @@
+* {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	box-sizing: border-box;
+  }
+
+  img.resize {
+      width: 25%;
+      height: 25%;
+  }
