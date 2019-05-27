@@ -4,53 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Abouot Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-    <h1 class="my-name">Erik Halbakken</h1>
-    <br>
 
-    <nav>
-        <a href="index.html">About</a> |
-        <a href="portfolio.html">Portfolio</a> |
-        <a href="contact.html">Contact</a> |
-    </nav>
-    
-</header>
-    <br>
+<!-- Navigation Bar-->
+<nav>
+    <div>
+        <h1>Erik Halbakken</h1>
+    </div>
 
-    <h2 class="portfolio">Portfolio</h2>
-    <br>
+    <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<hr>
 
-    <section>
-        <div>
-            <img src="assets/images/hangman.jpg" alt="Hangman game">
-            <h3>Hangman</h3>
-
-            <img src="assets/images/rpg.jpg" alt="Postion, weapons, staff">
-            <h3>RPG Game</h3>
-
-            <img src="assets/images/trivia.jpg" alt="Question mark logo">
-            <h3>Trivia Game</h3>
-
-            <img src="assets/images/rutgers.jpg" alt="Abstract colors">
-            <h3>Rutgers Info Widget</h3>
-
-            <img src="assets/images/rps.jpg" alt="Hand showing rock, paper & scissors">
-            <h3>Rock Paper Scissors</h3>
-
+<!--Main Page Content-->
+<section>
+    <div class="content">
+        <div class="page-name">
+             <h2>Portfolio</h2>
+             <hr>
         </div>
+            <div class="row">
+                <div class="column">
+                    <img src="assets/images/hangman.jpg" alt="Hangman game">
+                    <div class="caption">Hangman</div>
+                </div>
 
-        
-    </section>
+                <div class="column">
+                    <img src="assets/images/rpg.jpg" alt="Postion, weapons, staff">
+                    <div class="caption">RPG Game</div>
+                </div>
 
-</body>
+                <div class="column">
+                    <img src="assets/images/trivia.jpg" alt="Question mark logo">
+                    <div class="caption">Trivia Game</div>
+                </div>
 
-<br>
-    <footer>Copyright</footer>
+                <div class="column">
+                    <img src="assets/images/rutgers.jpg" alt="Abstract colors"> 
+                    <div class="caption">Rutgers Info Widget</div>
+                </div>
+
+                <div class="column">
+                    <img src="assets/images/rps.jpg" alt="Hand showing rock, paper & scissors">
+                    <div class="caption">Rock Paper Scissors</div>
+                </div>
+
+            </div>
+    </div>
+</section>
+
+<footer>Copyright &#169;</footer>
 
 </body>
 </html>
