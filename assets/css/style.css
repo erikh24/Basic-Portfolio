@@ -22,11 +22,6 @@ img {
   padding: 10px;
 }
 
-.navbar ul li:hover {
-  background-color:blue;
-  color: black;
-}
-
 nav div h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #4aaaa5;
@@ -72,7 +67,6 @@ nav ul {
 
 nav {
   display: flex;
-  border-color: #cccccc;
   margin: auto;
   justify-content: space-between;
   width: 960px;
@@ -113,6 +107,8 @@ hr {
 }
 
 .caption {
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
   position: absolute;
   background-color: #4aaaa5;
   text-align: center;
@@ -121,14 +117,21 @@ hr {
   vertical-align: middle;
   font-weight: bold;
   font-size: 18px;
-  margin-left: 10px;
-  margin-top: 310px;
-  width: 384px;
-  padding: 10px;
+  margin-top: 347px;
+  width: 403px;
+  padding: 7px;
 }
 
 .column img {
+  border: 2px solid #777777;
   width: 100%;
+}
+
+.column img:hover {
+  outline: 5px solid #777777;
+  outline-offset: 5px;
+  width: 100%;
+
 }
 
 label {
@@ -179,3 +182,4 @@ footer {
  width: 100%;
  overflow: hidden;
 }
+
